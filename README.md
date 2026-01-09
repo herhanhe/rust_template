@@ -39,7 +39,7 @@ cargo install cargo-generate
 在我们的课程中，新的项目会使用 `tyr-rust-bootcamp/template` 模版生成基本的代码：
 
 ```bash
-cargo generate tyr-rust-bootcamp/template
+cargo generate herhanhe/rust_template
 ```
 
 ### 安装 pre-commit
