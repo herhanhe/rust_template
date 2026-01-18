@@ -1,10 +1,2 @@
 [template]
-# ✅ 核心配置：跳过替换/解析的文件列表（数组格式，必填，解决你的问题）
-# 所有写在这里的文件，都会被原样复制，不做任何语法解析和变量替换
-skip_files = [
-    "cliff.toml", # 你的核心需求：跳过changelog配置文件
-    "Cargo.lock", # 通用：跳过cargo锁文件
-    ".gitignore", # 通用：跳过git忽略文件
-    "LICENSE",    # 通用：跳过许可证文件
-    "**/*.md",    # 支持通配符：跳过所有目录下的md文件
-]
+exclude = ["cliff.toml"]
